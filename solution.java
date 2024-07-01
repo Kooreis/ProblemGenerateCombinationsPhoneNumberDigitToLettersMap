@@ -1,4 +1,7 @@
-import java.util.*;
-
-public class Main {
-    private static final String[] KEYS = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a phone number: ");
+        String digits = scanner.next();
+        List<String> result = letterCombinations(digits);
+        System.out.println(result);
+    }
